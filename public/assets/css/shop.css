@@ -1,0 +1,107 @@
+.dashboard-container {
+	position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.select-box-sort{
+    padding-top: 10px;
+}
+.sort-dashboard-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+.sort-dashboard-content{
+    width: 200px;
+}
+.dashboard-search-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 2%;
+}
+.filter-navigation{
+    width: 13%;
+    padding-left: 1%;
+}
+.options-container-sort{
+    position: absolute;
+}
+.size-container{
+    display: flex;
+    width: 10vw;
+    flex-direction: row;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.size-content{
+    border: 1px solid #cfcfcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.size-content:hover{
+    border: 1px solid #7dcdc2;
+}
+.filter-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 2rem;
+    padding-left: 7%;
+}
+#border-image{
+    width: 20vw;
+    height: 40vh;
+    border: 2px solid #d7dbdb;
+}
+#border-image:hover{
+    border: 2px solid #7dcdc2;
+}
+#description-item{
+    text-align: center;
+    margin-top: -30px;
+}
+#size-sneaker:hover{
+    color: #7dcdc2;
+}
+.range-slider{
+    width: 225px;
+}
+.dashboard-title{
+    text-align: center;
+}
+.dashboard-title h1{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.button-range-slider{
+    padding-top: 15px;
+}
+.dashboard-title h1::before{
+    background-image: url("/assets/images/before-after/before.svg");
+    content: " ";
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: -95px;
+    bottom: -30px;
+    right: 0px;
+    transform: scale(0.4);
+}
+.dashboard-title h1::after{
+    background-image: url("/assets/images/before-after/after.svg");
+    content: " ";
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transform: scale(0.4) translateX(290px) translateY(-45px);
+}

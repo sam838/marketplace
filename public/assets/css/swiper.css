@@ -1,0 +1,79 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.swiper-button{
+    color:#cfcfcf;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.swiper-container {
+    width: 100%;
+    height: 60%;
+}
+.sec-swiper{
+    width: 90.5%;
+    height: 30%;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.button-swiper-container{
+    position: absolute;
+    top: 58%;
+    left: 4%;
+}
+.button-shop-position{
+    top: 82%;
+    left: 4%;
+}
+.custom-button{
+    position: relative;
+    min-width: 12vh;
+    min-height: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0em;
+    text-decoration: none;
+    overflow: hidden;
+    outline: none;
+    border:none;
+    background-color: var(--color_button_lighten);
+}
+.custom-button span{
+    position: absolute;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: haphapanimate 500ms linear infinite;
+}
+@keyframes haphapanimate
+{
+    0%{
+        width: 0px;
+        height: 0px;
+        opacity: 0.5;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+        opacity: 0;
+    }
+}

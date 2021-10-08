@@ -1,0 +1,67 @@
+.form-login-container{
+    min-height: calc(100% - var(--footer_height));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.block-form-login{
+    width: fit-content;
+    position: relative;
+    padding: 20px 50px 40px 50px;
+    border: 1px solid black;
+    background-color: white;
+}
+/* ini input */
+.input-wrapper {
+    width: 600px;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.input-wrapper input {
+    padding: 1.1rem 1rem;
+    border: 1px solid #aaaaaa;
+    outline: none;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.input-wrapper input + label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.input-wrapper input + label span {
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    bottom: 1.1rem;
+    left: 1rem;
+    font-size: 1.1rem;
+    transition: all 150ms ease-in-out;
+}
+
+.input-wrapper input:focus + label span,
+.input-wrapper input.not-empty + label span{
+    bottom: 85%;
+    font-size: 0.9rem;
+}
+
+.input-wrapper input:invalid {
+    border-bottom: 1px solid red;
+}
+.forget-password{
+    position: absolute;
+    left: 76.5%;
+}
+.go-register{
+    position: absolute;
+    left: 7%;
+}

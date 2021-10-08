@@ -1,0 +1,10 @@
+warna hilang
+quantity hilang 
+comment styling (gibe).
+chat styling (gibe).
+di cart nambah kategori
+bagian cart check input hiddennya! 
+cek yg menghubungkan front end dan back end!
+wishlist form actionnya salah semua
+wishlist butuh color tambahi!
+account belom di isi formnya

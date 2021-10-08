@@ -1,0 +1,101 @@
+.detail-trans-container {
+    width: 100%;
+    overflow: hidden;
+    min-height: 685px;
+}
+.detail-trans-title h4::before{
+    background-image: url("/assets/images/before-after/before.svg");
+    content: " ";
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 415px;
+    bottom: 650px;
+    right: 0px;
+    transform: scale(0.4);
+}
+.detail-trans-title h4::after{
+    background-image: url("/assets/images/before-after/after.svg");
+    content: " ";
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transform: scale(0.4) translateX(1143px) translateY(-565px);
+}
+.detail-trans-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2%;
+    gap: 1em;
+    border: 2px solid #cfcfcf;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-left: 1.8%;
+}
+table{
+    border-spacing: 1;
+    border-collapse: collapse;
+    background:white;
+    border-radius:6px;
+    overflow:hidden;
+    position:relative;
+}
+thead tr{
+    height:60px;
+    background: #e6e6e6;
+    font-size:18px;
+}
+tbody tr{
+    height:48px;
+    border-bottom:1px solid#cfcfcf;
+    text-align: center;
+}
+tbody tr td{
+    font-family: 'Arial', sans-serif;
+    padding-top: 8px;
+    padding-bottom: 4px;
+}
+.detail-trans-top{
+    width:400px;
+}
+.detail-trans-table{
+    width: 700px;
+}
+.detail-trans-shipping{
+    width: 700px;
+}
+.detail-shipping-proceed{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.item-detail-trans-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+    gap: 1em;
+}
+.detail-trans-top-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-detail-image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.item-detail-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 110px;
+    padding-top:5px;
+}

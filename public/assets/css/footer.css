@@ -1,0 +1,44 @@
+.section-services{
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight : bold;
+}
+.section-media{
+    margin-top: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight : bold;
+}
+.follow{
+    height: 26px;
+    width: 42px;
+}
+.copyright{
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+footer{
+    width: 100%;
+    min-height: var(--footer_height);
+    position: relative;
+    z-index: 99;
+    background-color: #17293b;
+    color: white;
+}
+.footer{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-copyright{
+    background-color: #0c1c2c;
+}
+.text-white{
+    color: white;
+}
+.logo-footer{
+    position: absolute;
+    left: 15%;
+    top: 7%;
+}

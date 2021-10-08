@@ -1,0 +1,105 @@
+.cart-title h1::before{
+    background-image: url("/assets/images/before-after/before.svg");
+    content: " ";
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 470px;
+    bottom: 720px;
+    right: 0px;
+    transform: scale(0.4);
+}
+.cart-title h1::after{
+    background-image: url("/assets/images/before-after/after.svg");
+    content: " ";
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transform: scale(0.4) translateX(1050px) translateY(-620px);
+}
+.wishlist-title h1::before{
+    background-image: url("/assets/images/before-after/before.svg");
+    content: " ";
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    bottom: 715px;
+    right: 0px;
+    transform: scale(0.4);
+}
+.wishlist-title h1::after{
+    background-image: url("/assets/images/before-after/after.svg");
+    content: " ";
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transform: scale(0.4) translateX(1120px) translateY(-620px);
+}
+.combine-cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2%;
+}
+.item-cart-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.item-cart-image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 170px;
+    margin-bottom: 10px;
+}
+.item-cart-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+}
+.item-cart-price{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.item-cart-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.item-cart-content div{
+    margin-bottom: 6px;
+}
+.button-checkout{
+    color: white;
+    width: 200px;
+    background-color: var(--color_button_lighten);
+}
+.item-cart-action{
+    padding-top: 10px;
+}
+@font-face {
+    font-family: fst_custom_font;
+    src: url("../fonts/Quicksand-VariableFont_wght.ttf") format('truetype');
+}
+.fst-custom-font{
+    font-family: fst_custom_font;
+    font-weight: bold;
+}
+.grandtotal-price{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.order-to{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
